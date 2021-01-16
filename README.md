@@ -1,13 +1,13 @@
 # mouseoxR
 A function to analyze data from a MouseOx Mouse and Rat Pulse Oximeter.
 
-To load the alpha version of `mouseoxR`, paste the following line into your R terminal.
+To load the alpha version of `mouseoxR`, paste the following line into your R terminal. You only need to do this  if the `mouseoxR` function isn't already loaded in your environment.
 
 ```
 devtools::source_url("https://raw.githubusercontent.com/jsodicoff/mouseoxR/main/mouseox.R")
 ```
 
-There is one function in the package, also named `mouseoxR`. It takes 2 required parameters and two optional ones.
+There is one function in the file, also named `mouseoxR`. It takes 2 required parameters and two optional ones.
 
 * Required
   * `file` - the output file from your MouseOx device, or some type of Excel file.
